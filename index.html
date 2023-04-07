@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/9a744b8d1b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jo-Ken-Po</title>
+</head>
+
+<body>
+    
+    <div class="area">
+        <header>
+            <div class="score-area">
+                <div class="score-player1">                  
+                    <div class="score-p1">
+                        <i class="fa-sharp fa-solid fa-trophy"></i>
+                        <span>0</span>
+                    </div>
+                </div>
+                <div class="score-player2">
+                    <div class="score-p2">
+                        <i class="fa-sharp fa-solid fa-trophy"></i>
+                        <span>0</span>
+                    </div>
+                </div>
+            </div>
+            <h1>Jo-Ken-Po</h1>
+        </header>
+        <main>
+            <div class="gamer-area">
+                <div class="player1-area">
+                   <div class="question-player1-area">
+                        <h1>Jogador 1</h1>                     
+                        <div class="input-player1-area"> 
+                            <form method="get"> 
+                                <label for="nameplayer1">Qual o seu nome ?</label>
+                                <input type="text" required id="nameplayer1" placeholder="NikName:" autofocus > 
+                                <button>Enviar</button>
+                            </form> 
+                        </div>
+                   </div>  
+                    <div class="hold-player1">
+                        <h2>Aguarde o jogador 2 <br>para Jogar</h2>
+                    </div>                
+                    <div class="choose-player1">
+                        <div class="area-nikmane-p1">
+                            <h2>NikName</h2>  <!-- mudar--> 
+                        </div> 
+                        <div class="icon-hands-area-player1">
+                            <div class="rock">
+                                <h2>Pedra</h2>
+                                <i class="fa-solid fa-hand-back-fist"></i>
+                            </div>
+                            <div class="paper">
+                               <h2>Papel</h2>
+                               <i class="fa-solid fa-hand"></i>
+                            </div>
+                            <div class="scissors">
+                                <h2>Tesoura</h2>
+                                <i class="fa-solid fa-hand-scissors"></i>
+                            </div>
+                        </div>
+                        <div class="area-jogar-p1">
+                            <button>Faça sua Jogada</button>
+                            <div class="hand-left-winer">
+                                <i class="fa-solid fa-hand-point-left"></i>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="wait-choose-player1">
+                            <h2>NikName</h2>  <!-- mudar-->                          
+                        <div class="wait-area-hands-player1">
+                            <div class="rock-wait">
+                                <i class="fa-solid fa-hand-back-fist"></i>
+                            </div>
+                            <div class="paper-wait">
+                                <i class="fa-solid fa-hand"></i>
+                            </div>
+                            <div class="scissors-wait">
+                                <i class="fa-solid fa-hand-peace"></i>
+                            </div>
+                        </div>
+                        <h2>Aguarde<span id="s1p1">.</span><span id="s2p1" >.</span><span id="s3p1">.</span></h2>
+                    </div>                   
+                    <div class="result-player1">
+                        <div class="crown-player1">
+                            <div class="winer-p1">
+                                <i class="fa-solid fa-crown"></i>
+                            </div>
+                            <div class="lose-p1">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                        <div class="area-result-player1">
+                            <h3></h3>
+                            <div class="result-hands-player1">
+                                <div class="rock-result-p1">
+                                    <i class="fa-solid fa-hand-back-fist"></i>
+                                </div>
+                                <div class="paper-result-p1">
+                                    <i class="fa-solid fa-hand"></i>
+                                </div>
+                                <div class="scissors-result-p1">
+                                    <i class="fa-solid fa-hand-peace"></i>
+                                </div>
+                            </div>
+                            <h3>Sua escolhar</h3>
+                        </div>   
+                    </div>
+                </div>                      
+                <div class="winner-area">
+                    <div class="info-player">
+                        <h1> Olá Por favor <br> Informe o seu NikName </h1> 
+                        <div class="hand-left">
+                            <i class="fa-solid fa-hand-point-left"></i>
+                        </div>
+                        <div class="hand-rigth">
+                            <i class="fa-solid fa-hand-point-right"></i>
+                        </div>   
+                    </div>
+                     <div class="start-area">                    
+                        <h3>Vamos À Batalha</h3>
+                        <div class="icon-random-area">
+                            <!--icon player 1-->
+                            <div class="figth-player1">
+                                <div class="rock-winer">
+                                    <i class="fa-solid fa-hand-back-fist"></i>
+                                </div>
+                                <div class="paper-winer">
+                                    <i class="fa-solid fa-hand"></i>
+                                </div>
+                                <div class="scissors-winer">
+                                    <i class="fa-solid fa-hand-peace"></i>
+                                </div>
+                            </div>
+                            <div class="figth-winer">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                            <!--icon player 2-->
+                            <div class="figth-player2">                               
+                                <div class="paper-winer">
+                                    <i class="fa-solid fa-hand"></i>
+                                </div>                                
+                                <div class="scissors-winer">
+                                    <i class="fa-solid fa-hand-scissors"></i>
+                                </div>
+                                <div class="rock-winer">
+                                    <i class="fa-solid fa-hand-back-fist"></i>
+                                </div>
+                            </div>                                                             
+                        </div>
+                        <div class="gamer-winer">
+                           
+                            <h4>Façam sua Jogada</h4>   
+            
+                        </div>                         
+                    </div>
+                    <div class="icon-area">
+                        <div class="tied">
+                            <h2>Empatou !!!</h2> 
+                        </div>                                             
+                        <div class="figth-area">
+                            <!--icon player 1-->
+                            <div class="figth-player1-winner">
+                                <div class="rock-winner-p1">
+                                    <i class="fa-solid fa-hand-back-fist"></i>
+                                </div>
+                                <div class="paper-winner-p1">
+                                    <i class="fa-solid fa-hand"></i>
+                                </div>
+                                <div class="scissors-winner-p1">
+                                    <i class="fa-solid fa-hand-peace"></i>
+                                </div>
+                            </div>
+                            <div class="x-winer">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                            <!--icon player 2-->
+                            <div class="figth-player2-winner">                               
+                                <div class="paper-winner-p2">
+                                    <i class="fa-solid fa-hand"></i>
+                                </div>                                
+                                <div class="scissors-winner-p2">
+                                    <i class="fa-solid fa-hand-scissors"></i>
+                                </div>
+                                <div class="rock-winner-p2">
+                                    <i class="fa-solid fa-hand-back-fist"></i>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div class="rest-gamer-tied">
+                            <button>Jogar Novamente</button>
+                        </div>                                                             
+                    </div>                   
+                    <div class="winner-end">
+                        <div class="winner-area-end">
+                            <div class="player-winner">
+                                <h2></h2>                               
+                            </div>
+                            <div class="icon-star1">
+                                <i class="fa-solid fa-star"></i>
+                             </div>
+                             <div class="icon-star2">
+                                <i class="fa-solid fa-star"></i>
+                             </div>
+                             <div class="icon-star3">
+                                <i class="fa-solid fa-star"></i>
+                             </div>
+                             <div class="icon-star4">
+                                <i class="fa-solid fa-star"></i>
+                             </div>
+                             <div class="icon-star5">
+                                <i class="fa-solid fa-star"></i>
+                             </div>
+                             <div class="icon-star6">
+                                <i class="fa-solid fa-star"></i>
+                             </div>
+                            <div class="winner-trophy">
+                                <i class="fa-sharp fa-solid fa-trophy"></i>
+                            </div>
+                            <div class="winner-medal">
+                                <i class="fa-solid fa-medal"></i>
+                                <h3>vencedor</h3>
+                                <i class="fa-solid fa-medal"></i>
+                            </div>
+                        </div>
+                        <div class="rest-gamer">
+                            <button>Jogar Novamente</button>
+                        </div>
+                    </div>
+                    
+                </div> 
+                <div class="player2-area">
+                    <div class="hold-player2">
+                        <h2>Aguarde o jogador 1 <br>para Jogar</h2>
+                    </div>               
+                    <div class="question-player2-area">
+                        <h1>Jogador 2</h1>
+                        <div class="input-player2-area"> 
+                            <form> 
+                                <label for="nameplayer2">Qual o seu nome ?</label>
+                                <input type="text" required id="nameplayer2" placeholder="NikName:" autofocus > 
+                                <button>Enviar</button>
+                            </form> 
+                        </div>
+                    </div>                
+                    <div class="choose-player2">
+                        <div class="area-nikmane-p2">
+                            <h2>NikName</h2>  <!-- mudar--> 
+                        </div>  
+                        <div class="icon-hands-area-player2">
+                            <div class="rock">
+                                <h2>Pedra</h2>
+                                <i class="fa-solid fa-hand-back-fist"></i>
+                            </div>
+                            <div class="paper">
+                            <h2>Papel</h2>
+                            <i class="fa-solid fa-hand"></i>
+                            </div>
+                            <div class="scissors">
+                                <h2>tesoura</h2>
+                                <i class="fa-solid fa-hand-scissors"></i>
+                            </div>
+                        </div>              
+                        <div class="area-jogar-p2">
+                            <div class="hand-rigth-winer">
+                                <i class="fa-solid fa-hand-point-right"></i>
+                            </div> 
+                            <button>Faça sua Jogada</button>
+                        </div>
+                    </div>
+                    <div class="wait-choose-player2">
+                        <div class="area-nikmane-wait">
+                            <h2>NikName</h2>  <!-- mudar--> 
+                        </div>                      
+                        <div class="wait-area-hands-player2">
+                            <div class="rock-wait">
+                                <i class="fa-solid fa-hand-back-fist"></i>
+                            </div>
+                            <div class="paper-wait">
+                                <i class="fa-solid fa-hand"></i>
+                            </div>
+                            <div class="scissors-wait">
+                                <i class="fa-solid fa-hand-peace"></i>
+                            </div>
+                        </div>
+                        <h2>Aguarde<span id="s1p2">.</span><span id="s2p2" >.</span><span id="s3p2">.</span></h2>
+                    </div>
+                    <div class="result-player2">
+                        <div class="crown-player2">
+                            <div class="winer-p2">
+                                <i class="fa-solid fa-crown"></i>
+                            </div>
+                            <div class="lose-p2">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </div>
+                        <div class="area-result-player2">
+                            <h3></h3>
+                            <div class="result-hands-player2">
+                                <div class="rock-result-p2">
+                                    <i class="fa-solid fa-hand-back-fist"></i>
+                                </div>
+                                <div class="paper-result-p2">
+                                    <i class="fa-solid fa-hand"></i>
+                                </div>
+                                <div class="scissors-result-p2">
+                                    <i class="fa-solid fa-hand-peace"></i>
+                                </div>
+                            </div>
+                            <h3>Sua escolhar</h3>
+                        </div>   
+                    </div>                   
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h1>Criador : Resller Moreia Dias </h1>
+        </footer>
+    </div>
+
+
+    <script src="./assets/JS/script.js"></script>
+</body>
+
+</html>
