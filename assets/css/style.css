@@ -1095,9 +1095,6 @@ color: #FF4500;
     .figth-winer i{
         font-size: 30px;
     }
-    .icon-hands-area-player1, .icon-hands-area-player2{
-        flex-direction: row;
-    }
     .choose-player1, .choose-player2{
         padding: 0;
     }
@@ -1105,9 +1102,11 @@ color: #FF4500;
         width: 100%;
     }
     .icon-hands-area-player1, .icon-hands-area-player2{
+        flex-direction: row;
         width: 96%;
         padding: 12px;
         border-radius: 10px;
+        flex: none;
     }
     .rock, .paper, .scissors{
         border-radius: 10px;
